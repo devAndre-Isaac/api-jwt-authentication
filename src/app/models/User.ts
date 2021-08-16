@@ -5,7 +5,7 @@ class User {
   id: string;
 
   @Column()
-  emai: string;
+  email: string;
 
   @Column()
   password: string;
