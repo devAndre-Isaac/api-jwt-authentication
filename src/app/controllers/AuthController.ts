@@ -27,5 +27,4 @@ class AuthController {
     });
   }
 }
-//TODO PAREI NO 32:00
 export default new AuthController();

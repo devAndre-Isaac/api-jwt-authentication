@@ -23,9 +23,8 @@ export default function authMiddleware(
     const { id } = data as TokenPayLoad;
 
     req.userId = id;
-    
-    return next();
 
+    return next();
   } catch {
     return res.sendStatus(401);
   }
